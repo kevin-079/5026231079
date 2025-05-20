@@ -1,0 +1,35 @@
+body{
+    font-family: Poppins;
+    background-color: lightblue;
+    color: grey;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+p{
+    text-decoration: solid;
+}
+
+a:link{
+    color: rgb(43, 4, 79);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(239, 177, 22);
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+a:visited{
+    color: rgb(43,4,79);
+    text-decoration: none;
+}
+
+.kalimatpembuka{
+    font-size: 24px;
+    font-weight: normal;
+    text-decoration:solid;
+    text-align: left;
+    border-radius: 0cqi;
+}

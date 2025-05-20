@@ -1,0 +1,143 @@
+/* Font pada body */
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: linear-gradient(
+        to top,
+        #8f9091 40%,
+        #a6a9ac 60%,
+        #bdbfc3 80%
+      );
+    color: #000000;
+    min-height: 100vh;
+    margin: 0;
+    height: auto;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-img {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .username {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+  
+  .subtitle {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  
+  /* Banner Styling */
+  .banner {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-bottom: 16px
+  }
+  
+  .banner:hover {
+    transform: scale(1.02);
+  }
+  
+  /* .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+  } */
+  
+  .banner-text {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    color: white;
+    font-weight: 500 ;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styling for buttons */
+    .link-button {
+    background-color: #d8d8d8;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 44px;  /* Smaller padding */
+    font-size: 14px;  /* Smaller font size */
+    font-weight: 500;
+    margin-bottom: 16px; /* Adds space between buttons */
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+    box-shadow: 0 4px 6px rgb(127, 124, 124);  /* Adding shadow */
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .link-button:hover {
+    background-color: rgb(200, 200, 200);
+    transform: scale(1.02);
+    box-shadow: 0 4px 6px rgba(197, 196, 196, 0.2);  /* Darker shadow on hover */
+  }
+
+  /* Styling share titik 3 */
+  .share-link {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0 0.5rem;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    font-size: 12px;
+    color: #6c757d;
+    }
+
+  .share-link:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.02);
+    opacity: 10;
+  }
+
+  /* Styling button linktree*/
+    .btn-custom {
+    margin-top: 23px;
+    font-weight: 700;
+    background-color: #ffffffbf;  
+    color: #000000;             
+    border-radius: 25px;        
+    padding: 12px 20px;         
+    font-size: 15px;            
+    display: flex;              
+    justify-content: flex-start;
+    align-items: center;        
+    width: 100%;                
+    transition: background-color 0.3s, transform 0.2s;  
+    text-decoration: none;      
+    margin-bottom: 40px;
+  }
+  
+  .btn-custom:hover {
+    background-color: white;  
+  }
+  
+  
