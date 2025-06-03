@@ -56,7 +56,7 @@
       <a href="{{ url('js1') }}" class="btn btn-light w-100 link-btn" target="_blank"><h5>JS 1</h5></a>
       <a href="{{ url('js2') }}" class="btn btn-light w-100 link-btn" target="_blank"><h5>JS 2</h5></a>
       <a href="{{ url('linktree') }}" class="btn btn-light w-100 link-btn" target="_blank"><h5>Linktree</h5></a>
-      <a href="{{ url('index') }}" class="btn btn-light w-100 link-btn" target="_blank"><h5>ETS: Makeover</h5></a>
+      <a href="{{ url('ets') }}" class="btn btn-light w-100 link-btn" target="_blank"><h5>ETS: Makeover</h5></a>
     </div>
   </div>
 
