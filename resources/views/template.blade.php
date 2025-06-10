@@ -16,24 +16,25 @@
             background-color: #9de2e2;
             height: 100px;
         }
-    </style>x
+    </style>
 </head>
 
 <body>
-    <div class="jumbotron text-center mx-auto">
-        <h1>Kevin Nathanael : 5026231079</h1>
+    <div class="text-center py-3 mb-4" style="background-color: #e3f2fd;">
+        <h2 class="mb-0 fw-semibold text-primary">👨‍💻 Kevin Nathanael &mdash; 5026231079</h2>
     </div>
+
 
     <nav class="navbar navbar-expand-sm bg-light">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">All Front End</a>
+                <a class="nav-link" href="/frontend">All Front End</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/pegawai">Pegawai</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tugas CRUD</a>
+                <a class="nav-link" href="/roti">Tugas CRUD</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">EAS</a>
