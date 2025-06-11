@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\RotiDBController;
+use App\Http\Controllers\PageCounterController;
 
 
 /*
@@ -19,7 +20,7 @@ use App\Http\Controllers\RotiDBController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
@@ -111,6 +112,11 @@ Route::get('/roti/edit/{id}', [RotiDBController::class, 'edit']);
 Route::post('/roti/update', [RotiDBController::class, 'update']);
 Route::get('/roti/hapus/{id}', [RotiDBController::class, 'hapus']);
 Route::get('/roti/cari', [RotiDBController::class, 'cari']);
+
+//route untuk page counter
+Route::get('/', [PageCounterController::class, 'index']);
+
+
 
 
 

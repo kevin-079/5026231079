@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Kevin Nathanael : 5026231079</title>
+    <title>5026231079 - Kevin Nathanael</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -21,7 +21,7 @@
 
 <body>
     <div class="text-center py-3 mb-4" style="background-color: #e3f2fd;">
-        <h2 class="mb-0 fw-semibold text-primary">👨‍💻 Kevin Nathanael &mdash; 5026231079</h2>
+        <h2 class="mb-0 fw-semibold text-primary">👨‍💻 5026231079 - Kevin Nathanael</h2>
     </div>
 
 
@@ -40,7 +40,7 @@
                 <a class="nav-link" href="#">EAS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Latihan 1</a>
+                <a class="nav-link" href="/">Latihan 1</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Latihan 2</a>
