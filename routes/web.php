@@ -7,6 +7,8 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\RotiDBController;
 use App\Http\Controllers\PageCounterController;
+use App\Http\Controllers\KeranjangBelanjaDBController;
+use App\Http\Controllers\KaryawanDBController;
 
 
 /*
@@ -113,8 +115,24 @@ Route::post('/roti/update', [RotiDBController::class, 'update']);
 Route::get('/roti/hapus/{id}', [RotiDBController::class, 'hapus']);
 Route::get('/roti/cari', [RotiDBController::class, 'cari']);
 
-//route untuk page counter
+//route untuk tugas 1: page counter
 Route::get('/', [PageCounterController::class, 'index']);
+
+//route untuk tugas 2: keranjang belanja
+Route::get('/keranjangbelanja', [KeranjangBelanjaDBController::class,'index']);
+Route::get('/keranjangbelanja/tambah', [KeranjangBelanjaDBController::class,'tambah']);
+Route::post('/keranjangbelanja/store', [KeranjangBelanjaDBController::class,'store']);
+Route::get('/keranjangbelanja/edit/{id}', [KeranjangBelanjaDBController::class,'edit']);
+Route::post('/keranjangbelanja/update', [KeranjangBelanjaDBController::class,'update']);
+Route::get('/keranjangbelanja/hapus/{id}', [KeranjangBelanjaDBController::class,'hapus']);
+
+//route untuk tugas 3: karyawan
+Route::get('/karyawan', [KaryawanDBController::class,'index']);
+Route::get('/karyawan/tambah', [KaryawanDBController::class,'tambah']);
+Route::post('/karyawan/store', [KaryawanDBController::class,'store']);
+Route::get('/karyawan/edit/{id}', [KaryawanDBController::class,'edit']);
+Route::post('/karyawan/update', [KaryawanDBController::class,'update']);
+Route::get('/karyawan/hapus/{id}', [KaryawanDBController::class,'hapus']);
 
 
 

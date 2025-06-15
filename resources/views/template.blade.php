@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="text-center py-3 mb-4" style="background-color: #e3f2fd;">
+    <div class="text-center py-3" style="background-color: #e3f2fd;">
         <h2 class="mb-0 fw-semibold text-primary">👨‍💻 5026231079 - Kevin Nathanael</h2>
     </div>
 
@@ -43,10 +43,10 @@
                 <a class="nav-link" href="/">Latihan 1</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Latihan 2</a>
+                <a class="nav-link" href="/keranjangbelanja">Latihan 2</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Latihan 3</a>
+                <a class="nav-link" href="/karyawan">Latihan 3</a>
             </li>
         </ul>
     </nav>
